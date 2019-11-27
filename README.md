@@ -6,12 +6,12 @@ Face Detection Using OpenCV &amp; Python
   2) Create a folder 'trainer' in working directory
 
 ## To add a New Face
-python -c 'Face; Face.new_user()' 
+python -c 'import Face; Face.new_user()' 
 
 ## To train model
-python -c 'Face; Face.train_model()'
+python -c 'import Face; Face.train_model()'
 
 ## To detect Faces
-python -c 'Face; Face.detect()' 
+python -c 'import Face; Face.detect()' 
 
 # After adding a face remember to train the model again.
